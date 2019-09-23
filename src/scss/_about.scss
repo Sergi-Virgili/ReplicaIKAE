@@ -1,0 +1,37 @@
+.about {
+    width: 100%;
+    background-color: $color-light;
+    padding: 2em;  
+    padding-left: 4em; 
+    padding-right: 8em; 
+    h2 {
+        font-size: $section-title-size;
+        margin-bottom: 1em;
+    }
+    .about-content{
+        display: flex;
+        justify-content: space-between;
+        
+        //max-width: 30%;
+
+    }
+    .specialization {
+        max-width: 30%;
+        img {
+         width: 50px;   
+        }
+    }
+    .provide {
+        max-width: 30% ;
+        
+
+    }
+    .about-image {
+        width: 20%;
+        background-image: url('https://uc77c5952b2a50527e36e98f3abd.previews.dropboxusercontent.com/p/thumb/AAjWW2GcPreT1_8eGiKLocZbEmhXdivGs2W30N3oQZrvUGGEIr0ILrxOXmvMUfxnNjL5yUX6pNPys_pdLPLkVzjKiqPNHEwnYNC0doJ-mU3T4qV80d7xWuTRocnD2rra8phn0ZyRmn1nDK2xrOi_f5Bja1jYyf-Eay5PM11zllNxiOY5HN5dDQeno3R2s4eQRCSQBUpVSmJCm7UZ4agLzAmxh57bi6gDTcPaq-kGai-hxcP35A9oZzfv6KdutFA7-Dy3nXR-eA8U9KQTrosIaLNzb5PnkIIJYvKDreVAWrg9-XvVFRlnqrC5EaKdgpQlzMtVsRYamuFxHbG9p173kegr/p.jpeg');
+        background-position: center;
+        background-repeat: none;
+        background-size: cover;
+    
+    }
+}

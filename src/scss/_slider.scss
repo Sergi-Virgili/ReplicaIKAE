@@ -1,0 +1,18 @@
+.slider {
+    height: 80vh;
+    background-image: url('https://uc0d323ec122f7578969e2c4fe6f.previews.dropboxusercontent.com/p/thumb/AAh-1bc_PihhLqaOh2vvQFxNGP9FSbo3cbG5VzzERSYRlvQAlHLDim7rfpHql7e432e-B2Il7O9ZHeXl3EZ4loPCbEHZ9wFMNprXd-R2LO031D0rR0nKurMHIevDHENHv1rUmSLodaLlJeJ53VesBamBdy2H7wjxzm3ddkAhUcDLmqXz_7t4obrq5vX65KsUAjP6vyPkwaLl5kxeCu49aaxuFgQ_ANr8UAlYdbAAUyxIom6U_v8uaWeBoZeaWf-37O7lm2DLI6IYbhEUqHu8b95QH22WIx7SCzdEv5Cio50p1KDP7jL1tpxa9BPTU7z4toU6l601m_xwWTlVy6mf2YMj/p.jpeg');
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        color : $color-dark;
+        letter-spacing: .2em;
+        font-size: $title-size;
+
+
+    }
+}

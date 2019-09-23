@@ -1,0 +1,26 @@
+
+.logo {
+
+    img {
+        width: 120px;
+        height: auto;
+    }
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.nav{
+
+    ul{
+        display: flex;
+    }
+    display: flex;
+
+    a {
+        padding: 1em;
+    }
+
+}
