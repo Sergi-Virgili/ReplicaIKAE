@@ -1,34 +1,67 @@
 .about {
     width: 100%;
-    background-color: $color-light;
+    background-color: white;
     padding: 2em;  
-    padding-left: 4em; 
-    padding-right: 8em; 
-    h2 {
-        font-size: $section-title-size;
+    h2, h3 {
+        text-align: center;
         margin-bottom: 1em;
     }
-    .about-content{
-        display: flex;
-        justify-content: space-between;
+    
+    @media (min-width: $sm){
+        h3 {
+            padding-bottom: 1em;
+        }
         
-        //max-width: 30%;
+        h2 {
+            font-size: $section-title-size;
+            margin-bottom: 1em;
+        }
+    }
 
+    .about-content{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        margin: 0 auto;
+      //  background-color: red;
+        width: 100%;
+        text-align: center;
+        gap: 1em;
+        @media (min-width: $sm) {
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 1fr;
+            text-align: left;
+           
+            
+        }
     }
     .specialization {
-        max-width: 30%;
+        text-align: center;
         img {
-         width: 50px;   
+        width: 40px;   
+        //height: 70%;
+        }
+
+        .content {
+        display: grid;
+        
+        grid-template-columns: 1fr 1fr 1fr;
+        @media (min-width: $sm) {
+            display: block;
+           
+            
+        }
+        
+        
         }
     }
     .provide {
-        max-width: 30% ;
+        // max-width: 30% ;
         
 
     }
     .about-image {
-        width: 20%;
-        background-image: url('https://uc77c5952b2a50527e36e98f3abd.previews.dropboxusercontent.com/p/thumb/AAjWW2GcPreT1_8eGiKLocZbEmhXdivGs2W30N3oQZrvUGGEIr0ILrxOXmvMUfxnNjL5yUX6pNPys_pdLPLkVzjKiqPNHEwnYNC0doJ-mU3T4qV80d7xWuTRocnD2rra8phn0ZyRmn1nDK2xrOi_f5Bja1jYyf-Eay5PM11zllNxiOY5HN5dDQeno3R2s4eQRCSQBUpVSmJCm7UZ4agLzAmxh57bi6gDTcPaq-kGai-hxcP35A9oZzfv6KdutFA7-Dy3nXR-eA8U9KQTrosIaLNzb5PnkIIJYvKDreVAWrg9-XvVFRlnqrC5EaKdgpQlzMtVsRYamuFxHbG9p173kegr/p.jpeg');
+        // width: 20%;
+        background-image: url('../img/image.jpg');
         background-position: center;
         background-repeat: none;
         background-size: cover;

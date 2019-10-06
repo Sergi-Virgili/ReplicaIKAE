@@ -1,10 +1,36 @@
-$font: 'Open Sans' ;
 
+
+// COLORS
 $color-dark : #4A4A4A;
 $color-light : #F3F3F3;
 $color-medium: #B1A38F;
 
+// FONTS
+$font: 'Open Sans' ;
+  
 $title-size: 3em;
 $section-title-size: 2em;
 
-$img-slider : 'https://uc9b72672b94a52711b96ab8bbd0.previews.dropboxusercontent.com/p/thumb/AAlRn7WFOZ2Y3PEklq-KAWm2ySSPPaQ_jHQTgBXUsttmhMJB0m3xzht_c7CwdO0SLPKsuXyc-u2EaLS0OPv150HuvHtzpcNJrOdApZLjr5V7HFH7sR5saP1EXEfiU9DW1q_VRXL9AbnL0TeLMDzFVAyole4r8gjMBwHfupPSvD38i31oUxq6VhUlX7FYVH3fF1_a0cOX-ZvlKYCVAOnvjnkw_2oLazyBQP5ctECJ2bEE3dx5Mwgk5plzIM9w7UN32aAw7pzQj-cPd5pmUCXC6DtFQeUMQCO2AZJcIXBZp4RfSxliUmoFuJEveCJproXHKwD4PdI54VAKVKTcSRfUCZI-/p.jpeg'
+
+// IMAGES
+
+$img-slider : '../img/header.jpg';
+//$img-provider : '../img/provider.jpg';
+$img-logo : 'img/logo.png';
+
+
+// ABOUT IMAGES
+
+$img-delivery : '../img/delivery.jpg';
+
+// CATEGOTIES IMAGES
+$img-bath : '../img/bathroom.jpg';
+$img-bed : '../img/bedroom.jpg';
+$img-kitchen : '../img/kitchen.jpg';
+$img-living : '../img/livingroom.jpg';
+
+// BREACKPOINTS MEDIA
+
+$sm : 450px;
+$md : 900px;
+$lg : 1200px;

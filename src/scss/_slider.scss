@@ -1,11 +1,16 @@
 .header {
     background-image: url($img-slider);
     background-position: center;
-    background-repeat: none;
+    
+    
+    // background: border-box;
     background-size: cover;
+    
+    background-repeat: none;
+    height: 100vh;
 }
 .slider {
-    height: 80vh;
+    height: 100vh;
     
     
     display: flex;
@@ -15,7 +20,8 @@
     h1 {
         color : $color-dark;
         letter-spacing: .2em;
-        font-size: $title-size;
+        font-size: $title-size - 1;
+        text-align: center;
 
 
     }

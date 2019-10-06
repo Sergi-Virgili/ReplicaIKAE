@@ -1,6 +1,7 @@
 
 .logo {
 
+    
     img {
         width: 120px;
         height: auto;
@@ -8,19 +9,98 @@
 }
 .navbar{
     display: flex;
+    position: absolute;
+    top: 0;
     justify-content: space-between;
-    padding: 1em;
+    align-items: center;
+    
+    width: 100%;
+    //padding-top: 3em;
+    
 }
+// TODO
+.nav_collapse_icon {
+    font-size: 1.4em ;
+    
+}
+
+.toggle_button {
+    position: fixed;
+    right: 0px;
+    padding: 1em;
+    z-index: 101;
+
+    @media (min-width:$md) {
+        display: none;
+       
+    }
+}
+#nav-wrapper {
+    
+    position: fixed;
+    right: 0px;
+
+    @media (min-width:$md) {
+        position: absolute;
+       
+    }
+
+}
+
 
 .nav{
-
-    ul{
-        display: flex;
+    min-height: 100vh;
+    .search_icon {
+        width: 1em;
     }
-    display: flex;
+    z-index: 100;
+    position: absolute;
+    top: 0px;
+    background-color: white;
+    width: 80%;
+
+    ul {
+        padding-top: 3em;
+    }
+
+    li {
+        padding: 1.8em;
+        border-bottom: 1px solid lightgrey
+    }
 
     a {
-        padding: 1em;
+        color: $color-medium;
+        &:hover{
+            color: $color-dark;
+        }
+        
     }
 
+    
+
+    @media (min-width:$md) {
+        background-color: transparent;
+        min-height: 0vh;
+        position: absolute;
+        top: 0px;
+        display: flex;
+        ul{
+            display: flex;
+            width: 100%;
+            padding: 0;
+            bottom: 0px;
+            top: 0px;
+            justify-content: flex-end;
+            
+        }
+        li {
+            border: 0;
+        }
+       
+        
+        
+       
+    }
 }
+
+

@@ -5,16 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="scss/app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <title>IKAE</title>
 </head>
 <body>
-    <div class="container">
+    <a href="#" class="toggle_button" onclick="toogleMenu()"><i class="fas fa-align-right nav_collapse_icon"></i></a>
+    <div id="content-wrapper">
     <header class="header">
         <section class="navbar">
             <div class="logo">
-                <img src="https://uc1231572bf721234ec4d0e488af.previews.dropboxusercontent.com/p/thumb/AAh1xYR4APTON0WgMQqbo65NcIyiPfPd8uLVzu_lOC3kzk3p7Nzc6QSDPflpGQnK_9_LQZ5OxDI1sgCpg0V_5kQQzcOVxX9JBcVOw31HQX4Vw0h4ETp_wBT0b_qbnFf-sosHIdQD3mOtlCQDgPEMJXFI06U5w0C4gM5CFas2o-R3AXfPRmDQSXpn86O2Qe4myY3dijxqBcj-H8r0w6YjEwzIey48_uJFD31gIxKtBu3KcJ6Yl3VaIS5VCpt5i05JzrxmQpO78qf0HdLR8_0-QC4gx-ajglaM5-Zu8HY7PDyVMzCjpE580HvAM9YkmxHR1SoVDTZMGy0etpQCsGx8XFTi/p.png">
+                <img src='img/logo.png' alt="">
             </div>
-            <nav class="nav">
+            
+            <nav class="nav hidden" id="nav-wrapper">
                 <ul>
                     <li>
                         <a href="#">SHOP</a>   
@@ -29,7 +32,12 @@
                     <li>
                         <a href="#"> CONTACT</a>
                     </li>
+                    <li>
+                        <a href="#"><img src="img/search.png" alt="search" class="search_icon"></a>
+                    </li>
                 </ul>
+                
+                <!-- <i class="fas fa-times"></i> -->
             </nav>
         </section>
         <section class="slider">
@@ -48,15 +56,15 @@
                    <h3>our specialization</h3>
                    <div class="content">
                        <div class="delivery">
-                            <img src="https://uc864696c0ff4b45d79719487b4e.previews.dropboxusercontent.com/p/thumb/AAhlIDbxs1wk494IY8iQluZC3HC1q8NQGgxc0m8SG3FRrJe7147rbT5nec47UJ_OBIXnckMnJ2IyBbFMyUBaKygQ9bvO_yqgQs_pKnauBWjoPomkzYYDZhzIgWUSbbINXyOyrVSvJY5s9Lrdzngwbb33ukKdTtnQfHWhh2OaR83gV2dL-XlN2KEXoXYgu06BgdhVuy_Z6YhtqnV9W4isiPYp04HSX0bBZm-S4ua_A_lj5edhsl1K6pmLbjhYIsDFL93ob3UwblhL5JOf3dXUjZfjojh1B-EVPxyxlbPZScmR-fpg51qT100ZK7Y7oizztGAhJqwFGo8hRbSVE9OMhchi/p.png?fv_content=true&size_mode=5" alt="delivey">
+                            <img src="img/delivery.png" alt="delivey">
                             <h4>DELIVERY</h4>
                        </div>
                        <div class="support">   
-                            <img src="https://ucdceecddd8796edd31b8bef9d9d.previews.dropboxusercontent.com/p/thumb/AAgveOtCp0n1uAKn7nAk5ITiJ1kIlyxOQcyfesCeDFsQuo4sm1vgZc2IYAjGSCBKm1gf52cAP94PApbOuy2MjhhQV3_xLfDVuoCvl6Psf-Z8c2mVSWoGUTpXsaZkhvwfAshh5bYwGrTbme7-SE8CRVRM3yw-oLS1dYCkOQ4G1-TdVDw7qsJRpneSazAdPtB3jQBCXxNWkry4_rEuyHFQ9m9cFVHy01uJYWf6-YuSVyRKLMEtdnH6TR2a7C13fBsodl1KUdQBnuNs7V597zeDL_hjPvqJBVI4A-IeUZ-bAi43Fw5ApJQoGZiafCCMZ1iuUnClR9ojOC2_GvlN4cb-6LKY/p.png?fv_content=true&size_mode=5" alt="Support">
+                            <img src="img/support.png" alt="Support">
                             <h4>SUPPORT</h4>
                         </div>
                        <div class="montage">
-                           <img src="https://uce87383a58c7185240611bcf8f1.previews.dropboxusercontent.com/p/thumb/AAgxxbMlFdKy9iYBVGn3jxEEDs7rBpgarahLF4-F4LGMOi-CLMd__I-zvsr4Ty9QddoUQcvXJrKo8_yoW_MzpZYJ0_bSWruinjCOEB_ofvRH_5Pr2EiVagkwFcyoVuJ4-HPyvC2nDi0UAye9kwSEQMFQms9FFirPvWfQK-0f7Wop-g5n8OlOtGStn0az0iIULDExd5xSylrjyr_ngDgHGEsJhULQZnRwh6kB0JKJv44mKp86J2sN4nEgJKWjDGZUGQaI36vXELmF6yxI5NHwppKRcOrsfmPKHoWpAW9NXbPu7LSd6jdouZc3TD2a8aqWV_YNfhN0yCLmDr0rNNK_Nefo/p.png?fv_content=true&size_mode=5" alt="Montage">
+                           <img src="img/montage.png" alt="Montage">
                            <h4>MONTAGE</h4>
 
                        </div>
@@ -77,7 +85,7 @@
                     <h3>KITCHEN</h3>
                 </div>
                 <div class="category bed">
-                    <h3>BED ROOM</h3>
+                    <h3>BED ROOM</h3> 
                 </div>
                 <div class="category living">
                     <h3>LIVING ROOM</h3>
@@ -87,8 +95,11 @@
 
     </main>
     <footer class="footer">
-        <p>IKAE 2018 All right reserved</p>
+        <p>IKAE 2018 | All right reserved</p>
     </footer>
     </div>
+
+<script src="./scripts/scripts.js"></script>
+
 </body>
 </html>
